@@ -5,7 +5,10 @@
 	<artifactId>spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
+	
 	<properties>
+	
 		<!-- 文件拷贝时的编码 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -17,7 +20,7 @@
 
 		<shiro.version>1.2.4</shiro.version>
 		<activiti.version>5.19.0.2</activiti.version>
-		<cxf.version>2.7.18</cxf.version>
+		<cxf.version>3.1.6</cxf.version>
 		<lucene.version>5.4.1</lucene.version>
 
 		<slf4j.version>1.7.21</slf4j.version>
@@ -149,13 +152,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<version>${spring.version}</version>
-		</dependency>
-
-		<!-- Ejb Api -->
-		<dependency>
-			<groupId>javax.ejb</groupId>
-			<artifactId>ejb-api</artifactId>
-			<version>3.0</version>
 		</dependency>
 
 	</dependencies>
